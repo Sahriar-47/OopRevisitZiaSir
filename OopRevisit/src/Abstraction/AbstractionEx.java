@@ -1,3 +1,5 @@
+package Abstraction;
+
 interface Drivable {
     void drive();
 }
@@ -90,7 +92,7 @@ class Boat extends Vehicle implements Drivable, Engine {
         System.out.println("Boat engine shut down.");
     }
 }
-public class AbsTraction {
+public class AbstractionEx {
     public static void main(String[] args) {
         Vehicle car = new Car("Toyota");
         car.showBrand();
