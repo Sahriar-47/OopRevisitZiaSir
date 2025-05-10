@@ -10,7 +10,7 @@ class BankAccount {
     }
 }
 
-public class Encapsulation {
+public class  Encapsulation {
     public static void main(String[] args) {
         BankAccount acc = new BankAccount();
         acc.deposit(500);
